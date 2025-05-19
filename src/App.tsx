@@ -46,13 +46,13 @@ function App() {
         section: 'about',
         icon: User,
         colorClass: 'text-blue-600',
-        label: 'Qui je suis',
+        label: 'Qui suis-je ?',
       },
       {
         section: 'timeline',
         icon: Briefcase,
         colorClass: 'text-green-600',
-        label: 'Career Path',
+        label: <span lang="en" translate="no">Career Path</span>,
       },
       {
         section: 'skema',
@@ -68,7 +68,7 @@ function App() {
         <div className="w-full max-w-sm mx-auto mb-8">
           <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-lg px-4 py-3 shadow-md">
             <p className="text-gray-800 text-sm sm:text-base text-center">
-              J'ai réaliser ce CV Digital sur PyCharm avec ChatGPT et Bolt AI
+              J'ai réalisé ce CV Digital sur PyCharm avec ChatGPT et Bolt AI
             </p>
           </div>
         </div>

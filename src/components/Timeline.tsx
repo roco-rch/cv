@@ -36,7 +36,7 @@ export const Timeline: React.FC<TimelineProps> = ({ events, onEventClick }) => {
                 index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'
               }`}>
                 <div
-                  className="bg-white bg-opacity-90 p-6 sm:p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer w-full"
+                  className="bg-white bg-opacity-90 p-6 sm:p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer w-full relative"
                   onClick={() => onEventClick(event.id)}
                 >
                   <span className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 block mb-2">
@@ -58,6 +58,27 @@ export const Timeline: React.FC<TimelineProps> = ({ events, onEventClick }) => {
                   <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-600">
                     {event.shortDescription}
                   </p>
+
+                  {/* Touch icon - right on mobile, left/right based on position on desktop */}
+                  <div className={`absolute bottom-4 ${
+                    index % 2 === 0
+                      ? 'right-4 md:left-4'
+                      : 'right-4'
+                  } text-blue-500 animate-pulse`}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="48"
+                      height="48"
+                      viewBox="0 0 64 64"
+                      fill="currentColor"
+                      className="w-8 h-8 sm:w-10 sm:h-10"
+                    >
+                      <path d="M32 8a24 24 0 1 1-0.001 48.001A24 24 0 0 1 32 8zm0 4a20 20 0 1 0 0.001 40.001A20 20 0 0 0 32 12z"/>
+                      <path d="M32 16a16 16 0 1 1-0.001 32.001A16 16 0 0 1 32 16zm0 4a12 12 0 1 0 0.001 24.001A12 12 0 0 0 32 20z"/>
+                      <path d="M31 30h2v20h-2zM30 30c0-2.21 1.79-4 4-4s4 1.79 4 4v12h-2V30a2 2 0 0 0-4 0v12h-2V30z"/>
+                      <path d="M32 30a2 2 0 0 1 2 2v18h-4V32a2 2 0 0 1 2-2z"/>
+                    </svg>
+                  </div>
                 </div>
               </div>
 

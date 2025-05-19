@@ -21,7 +21,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
       <div className="w-full max-w-2xl mx-auto">
         <div className="bg-white bg-opacity-90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-xl p-6 sm:p-8 md:p-10 mb-6">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 text-center mb-6">
-            Qui je suis
+            Qui suis-je ?
           </h2>
 
           <ul className="list-disc list-inside text-lg sm:text-xl md:text-2xl text-gray-800 space-y-3 sm:space-y-4">
@@ -29,14 +29,14 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
             <li>Analyste Private Equity</li>
             <li>Skema Msc FMI promo 2027</li>
             <li className="!mt-6">
-              TSE Licence Économie
+              TSE Licence Économie (classements)
               <ul className="list-disc list-inside ml-6 mt-2 space-y-2 text-lg sm:text-xl md:text-2xl">
                 <li>L3 : 25/79</li>
                 <li>L2 : 18/244</li>
                 <li>L1 : 21/444</li>
               </ul>
             </li>
-            <li><em>Back on Track</em>, Association</li>
+            <li><span lang="en" translate="no">Back on Track</span>, Association</li>
             <li>Hobbies : pêche, rugby, natation</li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
         {/* Profile Photo - Below content on all screen sizes */}
         <div className="w-full max-w-md mx-auto">
           <img
-            src="/images/IMG_1337.jpeg"
+            src="./images/profile.jpeg"
             alt="Oscar Roques"
             className="w-full h-auto rounded-xl shadow-xl object-cover"
           />
