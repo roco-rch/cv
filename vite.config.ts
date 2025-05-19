@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   // ← ici on déclare le chemin public
-  base: '/cv-digital/',
+ base: './',
 
   plugins: [react()],
   optimizeDeps: {
