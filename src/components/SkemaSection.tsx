@@ -35,7 +35,7 @@ export const SkemaSection: React.FC<SkemaSectionProps> = ({ onBackClick }) => {
                 Césure :
               </h3>
               <ul className="list-disc list-inside ml-4 space-y-2">
-                <li>Stage 2 : Société Générale</li>
+                <li>Stage 2 : Société Générale Assistant Banquier Privé - Desk International (6 mois)</li>
                 <li>Stage 1 : Crédit Agricole CIB</li>
               </ul>
             </ul>
@@ -55,19 +55,20 @@ export const SkemaSection: React.FC<SkemaSectionProps> = ({ onBackClick }) => {
           {/* Logo SKEMA Finance */}
           <div className="w-full lg:w-1/2 h-40 sm:h-48 md:h-56 overflow-hidden rounded-xl shadow-inner">
             <img
-              src="https://asso-skema.fr/wp-content/uploads/2021/04/Logo-SKEMA-Finance-Martin-Six.png"
+              src="images/asso.jpg"
               alt="Logo SKEMA Finance"
-              className="w-full h-full object-contain bg-white p-4"
+              className="w-full h-full object-contain bg-white p-0"
             />
           </div>
           {/* Vie associative */}
           <div className="w-full lg:w-1/2 space-y-3 sm:space-y-4">
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
-              Vie associative : Skema Finance
+              Association : Skema Financial Tee-Off
             </h3>
             <ul className="list-disc list-inside text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 space-y-2 sm:space-y-3">
-              <li>Participation au Trading Contest</li>
-              <li>Visite des salles de marché du CAC 40</li>
+              <li>Co-fondateur avec Pascal Vidal, d'un événement de networking au golf d'Augusta</li>
+              <li>Traders,tentrepreneurs et institutionnels</li>
+              <li>Rencontre d'un mentor</li>
             </ul>
           </div>
         </div>

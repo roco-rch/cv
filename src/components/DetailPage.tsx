@@ -21,6 +21,21 @@ export const DetailPage: React.FC<DetailPageProps> = ({ event, onBackClick }) =>
     }
   };
 
+  const getDateDisplay = (event: TimelineEvent) => {
+    if (event.id === 'metier2') {
+      return 'Depuis 2033';
+    } else if (event.id === 'metier1') {
+      return '2030 – 2033';
+    } else if (event.id === 'depart-2025') {
+      return '2028 – 2030';
+    } else {
+      return event.date.toLocaleDateString('fr-FR', {
+        year: 'numeric',
+        month: 'long'
+      });
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4">
       <button
@@ -52,12 +67,7 @@ export const DetailPage: React.FC<DetailPageProps> = ({ event, onBackClick }) =>
               <div className="flex flex-col sm:flex-row sm:items-center text-gray-600 text-sm sm:text-base space-y-1 sm:space-y-0 sm:space-x-4">
                 <div className="flex items-center">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span>
-                    {event.date.toLocaleDateString('fr-FR', {
-                      year: 'numeric',
-                      month: 'long'
-                    })}
-                  </span>
+                  <span>{getDateDisplay(event)}</span>
                 </div>
                 {event.location && (
                   <div className="flex items-center">
