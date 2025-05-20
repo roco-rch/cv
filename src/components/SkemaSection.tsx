@@ -67,7 +67,7 @@ export const SkemaSection: React.FC<SkemaSectionProps> = ({ onBackClick }) => {
             </h3>
             <ul className="list-disc list-inside text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 space-y-2 sm:space-y-3">
               <li>Co-fondateur avec Pascal Vidal, d'un événement de networking au golf d'Augusta</li>
-              <li>Traders,tentrepreneurs et institutionnels</li>
+              <li>Traders, entrepreneurs et institutionnels</li>
               <li>Rencontre d'un mentor</li>
             </ul>
           </div>
