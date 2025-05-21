@@ -63,10 +63,10 @@ export const SkemaSection: React.FC<SkemaSectionProps> = ({ onBackClick }) => {
           {/* Vie associative */}
           <div className="w-full lg:w-1/2 space-y-3 sm:space-y-4">
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
-              Association : Skema Financial Tee-Off
+              Événement : Skema Financial Tee-Off
             </h3>
             <ul className="list-disc list-inside text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 space-y-2 sm:space-y-3">
-              <li>Co-fondateur avec Pascal Vidal, d'un événement de networking au golf d'Augusta</li>
+              <li>Co-fondateur d'un événement de networking au golf d'Augusta</li>
               <li>Traders, entrepreneurs et institutionnels</li>
               <li>Rencontre d'un mentor</li>
             </ul>

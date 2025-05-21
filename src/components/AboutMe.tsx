@@ -30,14 +30,14 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
             <li>Analyste Private Equity</li>
             <li>Skema Msc FMI promo 2027</li>
             <li className="!mt-6">
-              TSE Licence Économie
+              TSE Licence Économie (classements)
               <ul className="list-disc list-inside ml-6 mt-2 space-y-2 text-lg sm:text-xl md:text-2xl">
                 <li>L3 : 25/79</li>
                 <li>L2 : 18/244</li>
                 <li>L1 : 21/444</li>
               </ul>
             </li>
-            <li>Back on Track, Association</li>
+             <li><span className="notranslate">Back on Track</span>, Association</li>
             <li>Hobbies : pêche, rugby, natation</li>
           </ul>
         </div>

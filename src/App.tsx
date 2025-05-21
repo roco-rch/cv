@@ -68,7 +68,7 @@ function App() {
         <div className="w-full max-w-sm mx-auto mb-8">
           <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-lg px-4 py-3 shadow-md">
             <p className="text-gray-800 text-sm sm:text-base text-center">
-              J'ai réaliser ce CV Digital sur PyCharm avec ChatGPT et Bolt AI
+              J'ai réalisé ce CV Digital sur PyCharm avec ChatGPT et Bolt AI
             </p>
           </div>
         </div>

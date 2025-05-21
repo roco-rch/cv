@@ -26,7 +26,7 @@ export const timelineData: TimelineEvent[] = [
     type: 'event',
     location: 'Amsterdam',
     shortDescription: <span translate="no" lang="en">Asset Manager</span>,
-    description: 'J\'ai rejoint le desk Dérivés de Lazard Asset Management à Amsterdam pour contribuer à la structuration et à la gestion de stratégies sur produits dérivés (options, futures, swaps), au sein d’une équipe multi-actifs.',
+    description: 'J\'ai rejoint le desk produit dérivés de Lazard Asset Management à Amsterdam pour contribuer à la structuration et à la gestion de stratégies sur produits dérivés (options, futures, swaps), au sein d’une équipe multi-actifs.',
     image: 'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/f/8/8f8eec17ff_106500_tulipe-hollande.jpg',
     stats: {
       'Performance annualisée': '+4,2%',
@@ -41,9 +41,9 @@ export const timelineData: TimelineEvent[] = [
     date: new Date('2028-09-01'),
     type: 'event',
     location: 'Hong-Kong',
-    shortDescription: 'V.I.E Hong-Kong',
+    shortDescription: 'V.I.E. Hong-Kong',
     description:
-      'V.I.E Market Risk Analyst :\n•	Immersion directe sur le trading floor\n•	Analyse quotidienne des métriques clés de risque et de performance\n•	suivi de performance, benchmark, alpha/bêta\n•	Renforcement des compétences techniques\n•	Cadre international à forte valeur ajoutée',
+      'V.I.E. Market Risk Analyst :\n•	Immersion directe sur le trading floor\n•	Analyse quotidienne des métriques clés de risque et de performance\n•	suivi de performance, benchmark, alpha/bêta\n•	Renforcement des compétences techniques\n•	Cadre international à forte valeur ajoutée',
     image: 'https://ik.imgkit.net/3vlqs5axxjf/external/http://images.ntmllc.com/v4/destination/Hong-Kong/Hong-Kong-city/112086_SCN_HongKong_iStock466733790_Z8C705.jpg?tr=w-1200%2Cfo-auto'
   }
 ];
