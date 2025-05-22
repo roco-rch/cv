@@ -40,10 +40,10 @@ export const timelineData: TimelineEvent[] = [
     title: 'Société générale',
     date: new Date('2028-09-01'),
     type: 'event',
-    location: 'Hong-Kong',
-    shortDescription: 'V.I.E. Hong-Kong',
+    location: 'Brésil',
+    shortDescription: 'V.I.E. Brésil',
     description:
-      'V.I.E. Market Risk Analyst :\n•	Immersion directe sur le trading floor\n•	Analyse quotidienne des métriques clés de risque et de performance\n•	suivi de performance, benchmark, alpha/bêta\n•	Renforcement des compétences techniques\n•	Cadre international à forte valeur ajoutée',
-    image: 'https://ik.imgkit.net/3vlqs5axxjf/external/http://images.ntmllc.com/v4/destination/Hong-Kong/Hong-Kong-city/112086_SCN_HongKong_iStock466733790_Z8C705.jpg?tr=w-1200%2Cfo-auto'
+      'V.I.E. Market Risk Analyst :\n•	Immersion directe sur le trading floor\n•	Analyse quotidienne des métriques clés de risque et de performance\n•	suivi de performance, benchmark, alpha/bêta\n•	Renforcement des compétences techniques\n•	Apprendre le portugais',
+    image: 'https://www.brasilplanet.com.br/img_home_brasil/Rio_de_janeiro_3.jpg'
   }
 ];

@@ -22,7 +22,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
         {/* Profile Block */}
         <div className="bg-white bg-opacity-90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-xl p-6 sm:p-8 md:p-10">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 text-center mb-6">
-            Qui je suis
+            Qui suis-je ?
           </h2>
 
           <ul className="list-disc list-inside text-lg sm:text-xl md:text-2xl text-gray-800 space-y-3">
@@ -38,7 +38,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onBackClick }) => {
               </ul>
             </li>
              <li><span className="notranslate">Back on Track</span>, Association</li>
-            <li>Hobbies : pêche, rugby, natation</li>
+            <li>Hobbies : pêche, rugby, golf</li>
           </ul>
         </div>
 
